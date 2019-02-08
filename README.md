@@ -1,6 +1,6 @@
 # oneliners
 
-** Initiate new git. **
+**Initiate new git.**
 ```
 echo "# oneliners" >> README.md
 git init
@@ -9,7 +9,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/schraderL/oneliners.git
 git push -u origin master
 ```
-** Loop over file in bash **
+**Loop over file in bash**
 ```
 while read p; do
   echo "$p"
