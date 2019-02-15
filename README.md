@@ -15,3 +15,14 @@ while read p; do
   echo "$p"
 done < file
 ```
+**Loop over column in bash**
+```
+for i in $(cut -f 3 file.tsv|sed 1d); do
+  echo $i
+done
+```
+
+**AWK tab out***
+```
+ awk -v OFS='\t'
+ ```
